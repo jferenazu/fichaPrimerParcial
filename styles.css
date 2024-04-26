@@ -1,0 +1,101 @@
+.datosFicha ul {
+    list-style: none;
+    padding: 1%;
+}
+
+.datosFicha li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+nav {
+    background-color: #f8f9fa;
+    padding: 15px 0;
+    text-align: center;
+} 
+
+.title {
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    margin: 0;
+    padding: 3%;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    padding: 3%;
+    background-color: #f9f9f9;
+}
+
+footer img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+@media (max-width: 1100px) {
+    .imgFicha {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: auto;
+        font-size: 13px;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f9f9f9;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+        list-style: none;
+        margin-top: 5%;
+    }
+    
+    .imgFicha img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .title h1 {
+        margin: 0;
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+    .imgFicha {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: auto;
+        font-size: 13px;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f9f9f9;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+        list-style: none;
+    }
+    
+    .imgFicha img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .title h1 {
+        margin: 0;
+        font-size: 80px;
+    }
+
+}
